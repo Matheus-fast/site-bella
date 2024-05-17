@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FBFAC4;
+}
+
+.container {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+
+.pt1 {
+    height: 600px;
+    text-align: center;
+    margin-top: 300px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.foto {
+    width: 400px;
+    text-align: center;
+    margin: 40px;
+}
+
+
+
+h3 {
+    font-size: 25px;
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.titulo-textos {
+    font-size: 20px;
+}
+
+.container-fotos {
+    margin: 80px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foto-a {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.alinhado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrumado {
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+img {
+    width: 250px;
+    margin: 20px 30px;
+}
+
+.img:hover {
+    width: 350px;
+    transition: 1s;
+}
+
+.img {
+    border: 5px solid #36362F;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.carro1 {
+    width: 300px;
+    height: 400px;
+}
+
+
+.carro3 {
+    width: 350px;
+    height: 450px;
+}
+
+.carro1:hover, .carro3:hover {
+    width: 450px;
+    height: 600px;
+}
+
+.forte {
+    width: 800px;
+}
+
+.forte:hover {
+    width: 950px;
+}
+
+.sparkles {
+    width: 70px;
+}
+
+.sparkles-pequeno {
+    width: 25px;
+}
+
+.parte2 {
+    width: auto;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    text-align: center;
+    border-top: 3px solid black;
+    font-size: 16px;
+    color: #505040;
+}
